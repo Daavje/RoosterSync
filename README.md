@@ -30,7 +30,7 @@ Ga naar de website waar de Chrome-extensie beschikbaar is en zoek naar de downlo
 Nadat je het ZIP-bestand hebt gedownload, pak je het uit naar een map op je computer. Je kunt hiervoor gebruikmaken van de ingebouwde functie van je besturingssysteem of een programma zoals WinRAR of 7-Zip.
 
 ### Open het Chrome-extensiebeheer:
-Typ **chrome://extensions/** in de adresbalk van Chrome en druk op Enter.
+Typ `chrome://extensions/` in de adresbalk van Chrome en druk op Enter.
 Of klik op de drie puntjes in de rechterbovenhoek van je Chrome-venster, ga naar 'Meer hulpprogramma's' en kies 'Extensies'.
 Activeer de ontwikkelaarsmodus:
 Zorg ervoor dat de ontwikkelaarsmodus is ingeschakeld. Dit kun je vinden als een schakelaar ergens bovenaan de extensiebeheerpagina.
@@ -49,3 +49,41 @@ Sommige extensies vereisen configuratie. Als dat het geval is, ga naar de extens
 
 ### Test de extensie:
 Open een nieuw tabblad en probeer de functionaliteit van de extensie uit om te controleren of deze naar behoren werkt.
+
+## ICS-link instellen
+
+RoosterSync gebruikt een zogenaamde **ICS-link** om je rooster op te halen vanuit je Outlook-agenda. Deze link verwijst naar een .ics-bestand dat automatisch je afspraken bijhoudt. Je hoeft dit slechts één keer in te stellen.
+
+### Stap 1: ICS-link ophalen uit Outlook
+
+1. Ga naar [Outlook op het web](https://outlook.office.com/).
+2. Klik rechtsboven op het tandwiel en kies **Alle Outlook-instellingen weergeven**.
+3. Navigeer naar **Agenda > Gedeelde agenda's**.
+4. Onder het kopje **Publiceren**, selecteer de agenda die je wilt gebruiken.
+5. Kies voor **Alle details tonen** en klik op **Publiceren**.
+6. Kopieer de ICS-link die verschijnt (deze eindigt op `.ics`).
+
+> Gebruik **de ICS-link**, niet de HTML-link.
+
+### Stap 2: Zet de ICS-link in het juiste bestand
+
+1. Open het bestand `ics_url.txt` in de map van de extensie.
+2. Plak daar de ICS-link die je net hebt gekopieerd, op één regel.
+   
+   Bijvoorbeeld: `https://outlook.office365.com/owa/calendar/jouwrooster.ics`
+
+3. Sla het bestand op.
+
+### Stap 3: Herlaad de extensie in Chrome
+
+1. Open een nieuw tabblad en ga naar:  
+`chrome://extensions/`
+
+2. Zet rechtsboven **Ontwikkelaarsmodus** aan.
+
+3. Klik op **Herlaad** (bij de extensie), of verwijder en laad hem opnieuw via **"Load unpacked"**.
+
+4. RoosterSync zal nu automatisch je rooster ophalen via de ICS-link.
+
+Je hoeft dit maar één keer te doen. De extensie onthoudt de link zolang het `ics_url.txt`-bestand in de map blijft staan.  
+Heb je een nieuw rooster of een andere agenda? Vervang dan simpelweg de link in het bestand.
