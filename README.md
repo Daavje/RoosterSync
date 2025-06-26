@@ -1,7 +1,5 @@
 # RoosterSync
 
-👋 Hi, I’m @Daavje
-
 ### Altijd je rooster bij de hand - automatisch gesynchroniseerd vanuit Outlook.
 RoosterSync toont je rooster direct in je browser, zonder gedoe. De extensie haalt je planning automatisch uit je Outlook-agenda, zodat je altijd een actueel overzicht hebt van je lessen of afspraken.
 
