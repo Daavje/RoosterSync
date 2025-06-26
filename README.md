@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://github.com/Daavje/HWC-Extensie/blob/main/HWC%20Extension/images/HWC.png?raw=true"/>
+    <img src="https://github.com/Daavje/HWC-Extensie/blob/main/HWC%20Extension/images/128.png?raw=true"/>
     <h1>RoosterSync</h1>
     <h3>Altijd je rooster bij de hand - automatisch gesynchroniseerd vanuit Outlook</h3>
 </div>
