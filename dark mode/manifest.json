@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "RoosterSync dark",
+  "version": "2.7.6",
+  "description": "Toont je dagrooster vanuit een Outlook iCal-feed met voortgang per les en beschrijving.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://outlook.office365.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["ics_url.txt"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/HWC-Agenda-Logo16.png",
+      "48": "images/HWC-Agenda-Logo48.png",
+      "128": "images/HWC-Agenda-Logo128.png"
+    }
+  },
+  "icons": {
+      "16": "images/HWC-Agenda-Logo16.png",
+      "48": "images/HWC-Agenda-Logo48.png",
+      "128": "images/HWC-Agenda-Logo128.png"
+  }
+}
