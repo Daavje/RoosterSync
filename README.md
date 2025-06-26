@@ -26,7 +26,7 @@ Ga naar de website waar de Chrome-extensie beschikbaar is en zoek naar de downlo
 Nadat je het ZIP-bestand hebt gedownload, pak je het uit naar een map op je computer. Je kunt hiervoor gebruikmaken van de ingebouwde functie van je besturingssysteem of een programma zoals WinRAR of 7-Zip.
 
 ### Open het Chrome-extensiebeheer:
-Typ ' chrome://extensions/ ' in de adresbalk van Chrome en druk op Enter.
+Typ **chrome://extensions/** in de adresbalk van Chrome en druk op Enter.
 Of klik op de drie puntjes in de rechterbovenhoek van je Chrome-venster, ga naar 'Meer hulpprogramma's' en kies 'Extensies'.
 Activeer de ontwikkelaarsmodus:
 Zorg ervoor dat de ontwikkelaarsmodus is ingeschakeld. Dit kun je vinden als een schakelaar ergens bovenaan de extensiebeheerpagina.
